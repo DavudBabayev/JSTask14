@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 32px;
+}
+
+nav {
+  width: 100%;
+}
+nav .first {
+  width: 100%;
+  height: 30px;
+  background-color: #a5c926;
+}
+nav .first .firstcon {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+nav .first .firstcon p a {
+  color: white;
+}
+nav .first .firstcon ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+nav .first .firstcon ul a {
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 9999999px;
+  background-color: #a5c926;
+  padding: 5px;
+}
+nav .first .firstcon ul a:hover {
+  filter: brightness(90%);
+}
+nav .second {
+  width: 100%;
+  height: 75px;
+}
+nav .second .navdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .second .navdiv .navdiv1 {
+  width: 40%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .second .navdiv .navdiv1 .toystore {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+nav .second .navdiv .navdiv1 ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+nav .second .navdiv .navdiv1 ul a {
+  text-decoration: none;
+  color: black;
+}
+nav .second .navdiv .navdiv1 ul a:hover {
+  border-bottom: 1px solid;
+}
+nav .second .navdiv .navdiv2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+nav .second .navdiv .navdiv2 .cart {
+  text-decoration: none;
+  font-size: 18px;
+}
+nav .second .navdiv .navdiv2 .cart span {
+  border-radius: 9999999px;
+  padding: 5px;
+  color: white;
+  background-color: #a5c926;
+}
+nav .second .navdiv .navdiv2 button {
+  font-size: 24px;
+  border: none;
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  nav .second .navdiv .navdiv1 ul {
+    display: none;
+  }
+  nav .second .navdiv .navdiv2 button {
+    display: block;
+  }
+}/*# sourceMappingURL=styles.css.map */
