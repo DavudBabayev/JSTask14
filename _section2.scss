@@ -1,0 +1,53 @@
+.section2{
+    margin-top: 150px;
+    width: 100%;
+    .sec2div{
+        width: 100%;
+        .sec2first{
+            width: 100%;
+            min-height: 300px;
+            display: flex;
+            justify-content: space-between;
+            .stuffed{
+                background-color: #ffc12c;
+            }
+            .wooden{
+                background-color: #fb416b;
+            }
+            .s2f{
+                width: 45%;
+                height: 200px;
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                img{
+                    width: 40%;
+                    height: 120%;
+                    object-fit: cover;
+                    margin-bottom: 60px;
+                }
+                div{
+                    height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h3{
+                        color: white;
+                        font-size: 28px;
+                        font-weight: 500;
+                    }
+                    a{
+                        text-decoration: none;
+                        text-align: center;
+                        width: 120px;
+                        color: black;
+                        background-color: white;
+                        padding: 15px;
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
 }
 
 .container {
@@ -142,7 +143,7 @@ nav .second .navdiv .navdiv2 button {
 }
 .section1 .textdiv h1 {
   font-weight: 400;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
 }
 .section1 .textdiv a {
@@ -163,7 +164,7 @@ nav .second .navdiv .navdiv2 button {
   font-size: 40px;
   border-radius: 9999999px;
   border: none;
-  left: calc(50% - 60px);
+  left: calc(50% - 30px);
   bottom: -30px;
   background-color: white;
 }
@@ -176,4 +177,58 @@ nav .second .navdiv .navdiv2 button {
   .section1 button {
     display: none;
   }
+}
+.section2 {
+  margin-top: 150px;
+  width: 100%;
+}
+.section2 .sec2div {
+  width: 100%;
+}
+.section2 .sec2div .sec2first {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.section2 .sec2div .sec2first .stuffed {
+  background-color: #ffc12c;
+}
+.section2 .sec2div .sec2first .wooden {
+  background-color: #fb416b;
+}
+.section2 .sec2div .sec2first .s2f {
+  width: 45%;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section2 .sec2div .sec2first .s2f img {
+  width: 40%;
+  height: 120%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 60px;
+}
+.section2 .sec2div .sec2first .s2f div {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section2 .sec2div .sec2first .s2f div h3 {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+.section2 .sec2div .sec2first .s2f div a {
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  border-radius: 50px;
 }/*# sourceMappingURL=styles.css.map */
