@@ -1,43 +1,52 @@
-.section2{
+.section2 {
     margin-top: 150px;
     width: 100%;
-    .sec2div{
+
+    .sec2div {
         width: 100%;
-        .sec2first{
+
+        .sec2first {
             width: 100%;
             min-height: 300px;
             display: flex;
             justify-content: space-between;
-            .stuffed{
+
+            .stuffed {
                 background-color: #ffc12c;
             }
-            .wooden{
+
+            .wooden {
                 background-color: #fb416b;
             }
-            .s2f{
+
+            .s2f {
                 width: 45%;
                 height: 200px;
                 border-radius: 15px;
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
-                img{
+
+                img {
                     width: 40%;
                     height: 120%;
                     object-fit: cover;
                     margin-bottom: 60px;
                 }
-                div{
+
+                div {
                     height: 100px;
                     display: flex;
                     flex-direction: column;
                     gap: 10px;
-                    h3{
+
+                    h3 {
                         color: white;
                         font-size: 28px;
                         font-weight: 500;
                     }
-                    a{
+
+                    a {
                         text-decoration: none;
                         text-align: center;
                         width: 120px;
@@ -46,6 +55,30 @@
                         padding: 15px;
                         border-radius: 50px;
                     }
+                }
+            }
+        }
+
+        .sec2second {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid gray;
+
+            p {
+                font-size: 30px;
+                border-bottom: 2px solid $color1;
+            }
+
+            button {
+                background-color: whitesmoke;
+                border: none;
+                box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+                &:hover{
+                    border-bottom: 2px solid $color1;
                 }
             }
         }

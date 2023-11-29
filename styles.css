@@ -92,6 +92,7 @@ nav .second .navdiv .navdiv2 {
 nav .second .navdiv .navdiv2 .cart {
   text-decoration: none;
   font-size: 18px;
+  color: black;
 }
 nav .second .navdiv .navdiv2 .cart span {
   border-radius: 9999999px;
@@ -152,10 +153,10 @@ nav .second .navdiv .navdiv2 button {
   padding: 15px;
   border-radius: 50px;
   color: white;
-  transition: 0.3s linear;
+  transition: 0.3s ease;
 }
 .section1 .textdiv a:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .section1 button {
   position: absolute;
@@ -231,4 +232,25 @@ nav .second .navdiv .navdiv2 button {
   background-color: white;
   padding: 15px;
   border-radius: 50px;
+}
+.section2 .sec2div .sec2second {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+.section2 .sec2div .sec2second p {
+  font-size: 30px;
+  border-bottom: 2px solid #a5c926;
+}
+.section2 .sec2div .sec2second button {
+  background-color: whitesmoke;
+  border: none;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+.section2 .sec2div .sec2second button:hover {
+  border-bottom: 2px solid #a5c926;
 }/*# sourceMappingURL=styles.css.map */
