@@ -312,4 +312,40 @@ nav .second .navdiv .navdiv2 button {
   .section2 .sec2div .sec2third div {
     flex: 1 1 calc(50% - 10px);
   }
+}
+.attachment {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.website-files.com/5badda2935e11303a89a461e/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.attachment .textdiv {
+  width: 90%;
+  height: 250px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  padding: 0 250px;
+}
+.attachment .textdiv h5, .attachment .textdiv h1 {
+  font-weight: 400;
+}
+.attachment .textdiv h1 {
+  font-size: 45px;
+}
+.attachment .textdiv a {
+  padding: 10px;
+  border-radius: 999999px;
+  background-color: #a5c926;
+  color: white;
+  font-size: 40px;
 }/*# sourceMappingURL=styles.css.map */
